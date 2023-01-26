@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+}
+#heading{
+    margin: 3rem auto;
+}
+h1, pre{
+    color: #fdd986;
+    font-size: 1rem;
+    text-align: center;
+}
+pre{
+    margin: 10rem auto;
+}
+#img{
+    display:grid;
+    margin: 10rem auto;
+}
+img{
+    margin: 3rem auto;
+    width: 20rem;
+    height: 20rem;
+}
+#video{
+    display: block;
+    margin: 20rem auto;
+}
+video{
+    width: 17rem;
+    height: 11rem;
+}
+#last{
+    margin: 10rem auto;
+}
+#last img{
+    width: 13rem;
+    height: 7rem;
+}
